@@ -20,8 +20,14 @@ a previously established threshold, finding the cheapest products and updating t
 And at last automatically sending the e-mail containing the best offers.</p>
 
 ## Project's Input
-<p>This project utilizes an Excel file (buscas.xlsx) as an input. The Excel file contains 4 columns:
-Product Name, Banned Words, Minimum Price and Maximum Price. So the research is customizable through this Excel
+<p>This project utilizes an Excel file (buscas.xlsx) as an input. The Excel file contains 4 columns:</p>
+
++ Product Name;
++ Banned Words (here we can specify certain names we don't want to appear on our research);
++ Minimum Price (minimum threshold);
++ Maximum Price (maximum threshold).
+
+<p>So the research is customizable through this Excel
 file by altering each row to the user's need.</p>
 
 ## End Result
